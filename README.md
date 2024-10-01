@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # docker-nginx-html
 =======
 # Dockerized Nginx with a Simple HTML Page
