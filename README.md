@@ -103,6 +103,12 @@ To push the image to AWS ECR, follow these steps:
 This project demonstrates the basics of Dockerizing a static HTML page using Nginx as the web server. By creating a simple HTML page, configuring Nginx, and building a Docker image, you’ve learned how to deploy lightweight web servers in isolated containers. This is an essential skill for building and deploying modern applications in cloud environments, as Docker provides an efficient way to manage application dependencies and streamline deployment processes.
 
 
+## Contact
+If you have any questions, suggestions, or feedback, feel free to reach out:
+Name: Abhay Kumar Shukla
+Email: abhay06072002@gmail.com
+GitHub: https://github.com/AbhayShukla1907
+LinkedIn: https://www.linkedin.com/in/abhay-shukla-65818330a/
 
 
 
