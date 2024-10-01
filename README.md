@@ -105,9 +105,13 @@ This project demonstrates the basics of Dockerizing a static HTML page using Ngi
 
 ## Contact
 If you have any questions, suggestions, or feedback, feel free to reach out:
+
 Name: Abhay Kumar Shukla
+
 Email: abhay06072002@gmail.com
+
 GitHub: https://github.com/AbhayShukla1907
+
 LinkedIn: https://www.linkedin.com/in/abhay-shukla-65818330a/
 
 
