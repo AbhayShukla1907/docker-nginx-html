@@ -3,7 +3,13 @@
 # Dockerized Nginx with a Simple HTML Page
 
 ## Overview
-This project demonstrates how to Dockerize a simple HTML page using Nginx as the web server. We build a Docker image, run the container, and serve the HTML page using Nginx.
+This project demonstrates how to Dockerize a simple HTML page using Nginx as the web server. The containerization process involves creating an HTML page, configuring Nginx to serve it, building a Docker image, and running a container that serves the page over HTTP.
+
+The objective is to:
+
+Build a Docker image with Nginx serving a static HTML page.
+Deploy and run the container.
+Optionally, push the Docker image to Amazon Elastic Container Registry (ECR).
 
 ## File Descriptions
 ### 1. index.html
@@ -59,7 +65,6 @@ Dockerfile example:
     # Start Nginx when the container launches
     CMD ["nginx", "-g", "daemon off;"]
 
-
 ## Steps to Build and Run the Docker Container
 ### 1. Build the Docker image:
   Run the following command to build the Docker image from the "Dockerfile":
@@ -94,8 +99,8 @@ To push the image to AWS ECR, follow these steps:
        docker push 975050024946.dkr.ecr.us-west-2.amazonaws.com/my-nginx-html:latest
 
 
-
-
+## Conclusion
+This project demonstrates the basics of Dockerizing a static HTML page using Nginx as the web server. By creating a simple HTML page, configuring Nginx, and building a Docker image, you’ve learned how to deploy lightweight web servers in isolated containers. This is an essential skill for building and deploying modern applications in cloud environments, as Docker provides an efficient way to manage application dependencies and streamline deployment processes.
 
 
 
